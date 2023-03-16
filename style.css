@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color : #aaa;
+}
+canvas {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.button {
+
+}
+
+a.link {
+  background : #4CAF50;
+  color : white;
+  font-size : 24px;
+  padding : 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius : 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+a.link:hover {
+    color :  #417243;
+    box-shadow: 0px -4px 10px rgba(0,0,0,0.2);
+    top: 50.4%;
+    transition : all ease 200ms;
+}
